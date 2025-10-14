@@ -21,11 +21,10 @@ const ws = new WebSocket('wss://echo.websocket.org', {
 });
 ```
 
-## Features
+## Platform Support
 
-- Lightweight, cross-platform WebSocket client
-- Headers support for Node.js
-- TypeScript ready
+- **Node.js**: Uses `ws` library with headers support
+- **Browsers**: Uses native WebSocket (headers safely ignored)
 
 ## License
 
